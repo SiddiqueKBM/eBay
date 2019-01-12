@@ -1,0 +1,208 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5298910449,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Search Laptop",
+        "description": "",
+        "id": "search-feature;search-laptop;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 171467275,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 182860287,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am in Home Page",
+            "match": {
+              "location": "SearchSteps.i_am_in_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3244603216,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter product name \"Dell\" in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dell",
+                  "offset": 20
+                }
+              ],
+              "location": "SearchSteps.enter_product_name_in_search_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3049816742,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Search Button",
+            "match": {
+              "location": "SearchSteps.click_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6576758088,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Laptop items appear",
+            "match": {
+              "location": "SearchSteps.laptop_items_appear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4850754208,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.initializeTest()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Search Laptop",
+        "description": "",
+        "id": "search-feature;search-laptop;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 140501406,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDownTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3929463,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am in Home Page",
+            "match": {
+              "location": "SearchSteps.i_am_in_Home_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3639633645,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter product name \"Asus\" in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Asus",
+                  "offset": 20
+                }
+              ],
+              "location": "SearchSteps.enter_product_name_in_search_box(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2576114503,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click Search Button",
+            "match": {
+              "location": "SearchSteps.click_Search_Button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5033938624,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Laptop items appear",
+            "match": {
+              "location": "SearchSteps.laptop_items_appear()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@FunctionalTest"
+          }
+        ]
+      }
+    ],
+    "name": "Search Feature",
+    "description": "In order to search item in search product\nas a user I need to be in Home Page",
+    "id": "search-feature",
+    "keyword": "Feature",
+    "uri": "search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@FunctionalTest"
+      }
+    ]
+  }
+]

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="34.769288">
+<testcase classname="Search Feature" name="Search Laptop" time="18.524416">
+<system-out><![CDATA[Given I am in Home Page.....................................................passed
+When Enter product name "Dell" in search box................................passed
+And Click Search Button.....................................................passed
+Then Laptop items appear....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search Feature" name="Search Laptop 2" time="16.244872">
+<system-out><![CDATA[Given I am in Home Page.....................................................passed
+When Enter product name "Asus" in search box................................passed
+And Click Search Button.....................................................passed
+Then Laptop items appear....................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
